@@ -11,4 +11,4 @@ export_env_dir $env_dir
 cd $build_dir
 
 head "Building webpack bundle"
-$(npm bin)/webpack -p --optimize-minimize --optimize-occurence-order --optimize-dedupe --progress --profile --display-modules --devtool source-map
+$(npm bin)/webpack -p --bail --optimize-minimize --optimize-occurence-order --optimize-dedupe --progress --profile --display-modules --devtool source-map
